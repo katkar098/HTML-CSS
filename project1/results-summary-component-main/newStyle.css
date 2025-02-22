@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Hanken Grotesk;
+}
+body{
+    background-color: hsla(166, 100%, 37%, 0.099);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.divs{
+    width: 300px;
+    height: 425px;  
+}
+
+.blue{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    left: 12px;
+    
+}
+.blue h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+.para{
+    text-align: center;
+    font-size: 16px;
+    margin:  50px;
+}
+#YourResult{
+    color: rgb(187, 186, 186);
+    margin-top: 35px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    box-shadow: 0px 10px 20px hsl(252, 92%, 70%);
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+.blue span{
+    text-align: center;
+    font-size: 60px;
+    font-weight:bold; 
+    
+     
+}
+#para{
+    color: rgb(187, 186, 186);
+    margin: 1px 5px;  
+}
+#para2{
+    color: rgb(187, 186, 186);
+    text-align: center;
+    font-size: 14px;
+    margin:0px 50px;
+}
+
+
+.white{
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    
+}
+#summary{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+#marks1{
+    width: 230px;
+    height: 45px;
+    margin: 15px ;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: hsla(0, 100%, 67%, 0.099);
+}
+#marks2{
+    width: 230px;
+    height: 45px;
+    margin: 15px ;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: hsla(39, 100%, 56%, 0.099)
+}
+#marks3{
+    width: 230px;
+    height: 45px;
+    margin: 15px ;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: hsla(166, 100%, 37%, 0.099);
+}
+#marks4{
+    width: 230px;
+    height: 45px;
+    margin: 15px ;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: hsla(234, 85%, 45%, 0.099)
+}
+
+
+
+#main-span1{
+    padding-top: 10px;
+    color: hsl(0, 100%, 67%);
+    
+}
+#main-span2{
+    padding-top: 10px;
+    color: hsl(39, 100%, 56%);
+    
+}
+#main-span3{
+    padding-top: 10px;
+    color: hsl(166, 100%, 37%);
+}
+#main-span4{
+    padding-top: 10px;
+    color: hsl(234, 85%, 45%);
+}
+
+#sub-span1{
+    color:black;
+    margin-left: 48px;
+    padding-top: 10px;
+}
+#sub-span2{
+    color:black;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+#sub-span3{
+    color:black;
+    margin-left: 62px;
+    padding-top: 10px;
+}
+#sub-span4{
+    color:black;
+    margin-left: 65px;
+    padding-top: 10px;
+}
+
+#outof1{
+    color:rgb(176, 171, 171) ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#outof2{
+    color:rgb(176, 171, 171) ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#outof3{
+    color:rgb(176, 171, 171) ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#outof4{
+    color:rgb(176, 171, 171) ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+img{
+    margin-left: 10px;
+    width: 15px;
+}
+button{
+    width: 230px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    margin-left: 35px;
+    margin-top: 17px;
+    font-size: 15px;
+}

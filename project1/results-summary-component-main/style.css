@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Hanken Grotesk;
+}
+body{
+    margin: 50px 60px;
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.containers{
+    display: inline-flex;
+}
+
+#blue-div{
+    width: 300px;
+    height: 400px;
+    background-color:hsl(241, 81%, 54%);
+    /* margin-left: 10px; */
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blue-div h2{
+    color:rgb(176, 171, 171);
+    margin-top: 30px;
+    
+}
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:   hsla(256, 72%, 46%, 1);
+    display: flex;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: px;
+}
+#circle #span-one{
+    color: white;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+#circle #span-two{
+    color:rgb(176, 171, 171);
+}
+#Great{
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#description{
+    color: rgb(176, 171, 171);
+    text-align: center;
+    margin: 15px 50px;
+    font-size: 14px;
+}
+
+
+#white-div{
+    width: 300px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    /* border: 2px solid black; */
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#white-div h2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.summary{
+    width: 200px;
+    height: 30px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 15px; 
+      
+}
+.summary ,.main-span{
+    padding-left:10px;
+    padding-top: 3px;
+    
+    
+    
+}
+.sub-span{
+    color:black;
+    margin-left: 50px;
+    padding-top: 5px;
+    
+}
+.outof{
+    color:rgb(176, 171, 171) ;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+#Verbal{
+    margin-left: 60px;
+}
+#Visual{
+    margin-left: 60px;
+}
+#blue{
+    margin-bottom: 30px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    margin-left: 55px;
+    font-size: 15px;
+}
